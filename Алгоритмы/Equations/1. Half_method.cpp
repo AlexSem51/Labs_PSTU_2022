@@ -17,10 +17,10 @@ int main()
     while (b - a > eps)
     {
         c = (a + b) / 2;
-        fA = (a - (1/ 3+ sin(3,6*a)));;
-        fB = (b - (1/ 3+ sin(3,6*b));;
-        fC = (c - (1/ 3+ sin(3,6*c)));;
-        if (fA * fC < 0) { b = c; }
+        fA = (a - (1/ 3+ sin(3,6*a)));
+        fB = (b - (1/ 3+ sin(3,6*b));
+        fC = (c - (1/ 3+ sin(3,6*c)));
+        if (fA * fC < 0) { b = c;}
         else if (fC * fB < 0) { a = c; }
         else { cout << "×òî-òî íå òî!" << endl; }
     }
